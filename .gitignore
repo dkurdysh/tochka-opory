@@ -1,0 +1,6 @@
+*.b64
+assets.json
+figma-reference.jsx
+fonts.css
+*.tar.gz
+*.zip

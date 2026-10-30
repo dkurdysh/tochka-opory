@@ -1,0 +1,354 @@
+@media (max-width: 640px) {
+  .page:before {
+    background-size: 220% auto;
+  }
+  .header {
+    height: auto;
+    padding: 24px 20px;
+  }
+  .brand {
+    gap: 12px;
+    font-size: 15px;
+  }
+  .brand img {
+    width: 26px;
+  }
+  .motion-toggle {
+    font-size: 11px;
+    padding: 5px;
+  }
+  .intro {
+    padding-top: 25px;
+  }
+  .intro h1 {
+    font-size: 11.8cqw;
+    line-height: 0.88;
+    padding: 0 20px;
+    letter-spacing: -0.055em;
+  }
+  .intro h1 span:first-child {
+    margin-left: 5cqw;
+  }
+  .intro h1 span:last-child {
+    margin-top: 3px;
+  }
+  .intro-deck {
+    position: static;
+    font-size: 18px;
+    line-height: 1.08;
+    margin: 24px 20px 0 auto;
+    width: max-content;
+  }
+  .intro-note {
+    font-size: 18px;
+    line-height: 1;
+    margin-top: 35px;
+  }
+  .intro-arrow {
+    width: 40cqw;
+    top: 63cqw;
+  }
+  .intro-arrow.left {
+    left: 17%;
+  }
+  .intro-arrow.right {
+    right: 10%;
+  }
+  .hero-picture {
+    margin-top: 32px;
+    height: 60cqw;
+  }
+  .hero-picture img {
+    height: 60cqw;
+    object-fit: cover;
+  }
+  .characters {
+    padding-top: 46px;
+  }
+  .section-heading {
+    display: block;
+    margin: 0 24px;
+  }
+  .section-heading h2,
+  h2 {
+    font-size: 15cqw;
+    line-height: 0.87;
+    letter-spacing: -0.055em;
+  }
+  .section-heading h2 span {
+    margin-left: 18cqw;
+  }
+  .section-heading > p {
+    font-size: 19px;
+    line-height: 1.15;
+    margin: 25px 0 0;
+    max-width: 300px;
+  }
+  .person {
+    display: grid;
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+  .irina {
+    margin-top: 36px;
+  }
+  .person-copy {
+    font-size: 20px;
+    line-height: 1.22;
+    max-width: none;
+    width: auto;
+  }
+  .person-copy .hand {
+    font-size: 23px;
+    line-height: 0.95;
+  }
+  .irina .person-copy {
+    margin: 0 24px;
+    text-align: left;
+    max-width: 80%;
+  }
+  .irina .person-copy .hand {
+    margin: 0 0 22px;
+    width: auto;
+    text-align: left;
+  }
+  .person .portrait {
+    width: 64cqw;
+    max-width: 300px;
+  }
+  .irina .portrait {
+    margin-top: 20px;
+    margin-right: -1px;
+  }
+  .person-arrow {
+    width: 32cqw;
+    left: 8%;
+    top: 55%;
+    transform: rotate(35deg);
+  }
+  .kostya {
+    margin-top: 0;
+  }
+  .kostya .portrait {
+    grid-row: 2;
+    width: 63cqw;
+    margin-top: 26px;
+  }
+  .kostya .person-copy {
+    grid-row: 1;
+    margin: 30px 24px 0 65px;
+  }
+  .kostya .person-copy .hand {
+    margin: 0 0 22px;
+    width: auto;
+    text-align: left;
+  }
+  .kostya .person-arrow {
+    left: 60%;
+    top: 65%;
+    transform: rotate(90deg);
+  }
+  .statement {
+    font-size: 8.6cqw;
+    line-height: 0.98;
+    width: auto;
+    margin: 44px 24px 24px;
+  }
+  .statement br {
+    display: none;
+  }
+  .paper-divider {
+    margin-bottom: 0;
+    height: 28cqw;
+  }
+  .paper-divider img {
+    height: 28cqw;
+    object-fit: cover;
+  }
+  .burnout {
+    height: auto;
+    padding: 25px 24px 0;
+  }
+  .burnout h2 {
+    margin-left: 8cqw;
+    font-size: 14cqw;
+  }
+  .burnout h2 span {
+    margin-left: 3cqw;
+  }
+  .burnout-lead {
+    position: static;
+    font-size: 8.4cqw;
+    line-height: 1;
+    margin-top: 35px;
+  }
+  .stages {
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+    padding: 50px 0 30px;
+  }
+  .stage {
+    position: relative;
+    top: auto !important;
+    left: auto !important;
+    width: 78%;
+    font-size: 20px;
+    line-height: 1.15;
+  }
+  .stage h3 {
+    font-size: 24px;
+    line-height: 0.95;
+    margin-bottom: 16px;
+    max-width: none !important;
+  }
+  .stage.one,
+  .stage.three {
+    align-self: flex-end;
+  }
+  .stage.two {
+    align-self: flex-start;
+    text-align: left;
+  }
+  .stage.four {
+    align-self: flex-end;
+    text-align: left;
+  }
+  .stage-arrow {
+    display: none;
+  }
+  .boom-label {
+    position: relative;
+    top: auto;
+    left: auto;
+    margin: 22px 0 0 10cqw;
+    font-size: 29px;
+  }
+  .explosion {
+    position: relative;
+    width: calc(100% + 48px);
+    margin-left: -24px;
+  }
+  .explosion img {
+    width: 100%;
+  }
+  .hope {
+    padding: 42px 20px 35px;
+  }
+  .hope h2 {
+    font-size: 12.2cqw;
+    line-height: 0.88;
+  }
+  .hope h2 span:nth-child(4),
+  .hope h2 span:nth-child(5) {
+    margin-left: 6cqw;
+  }
+  .hope-edge {
+    height: 14cqw;
+  }
+  .hope .answer {
+    margin-top: 40px;
+  }
+  .hope-copy {
+    margin: 40px 0 0 12cqw;
+    max-width: none;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .hope-copy p + p {
+    margin-top: 24px;
+  }
+  .hope .statement {
+    font-size: 8.2cqw;
+    width: auto;
+    margin: 36px 4px 12px;
+  }
+  .conversation {
+    padding: 125px 20px 0;
+  }
+  .conversation h2 {
+    font-size: 12.8cqw;
+    margin-left: 0;
+    position: relative;
+    z-index: 1;
+  }
+  .conversation h2 span:nth-child(3) {
+    margin-left: 3cqw;
+  }
+  .conversation h2 span:last-child {
+    margin-left: 13cqw;
+  }
+  .megaphone {
+    width: 45cqw;
+    right: -7cqw;
+    top: -7cqw;
+  }
+  .conversation-copy {
+    margin: 34px 0 0 10cqw;
+    max-width: none;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .article-card {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin-top: 45px;
+  }
+  .article-card > img {
+    width: 100%;
+  }
+  .article-card h3 {
+    font-size: 27px;
+    line-height: 0.95;
+    margin-bottom: 18px;
+  }
+  .article-card p {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .article-link {
+    font-size: 19px;
+    margin-top: 23px;
+    padding-bottom: 7px;
+    gap: 20px;
+  }
+  .ending {
+    padding: 80px 20px 65px;
+  }
+  .ending p {
+    font-size: 10.8cqw;
+    line-height: 0.92;
+  }
+  .ending span:last-child {
+    margin-left: 0;
+  }
+  .ending span:nth-child(1) {
+    text-align: left;
+  }
+  .ending span:nth-child(2) {
+    margin-bottom: 14px;
+  }
+  .footer-inner {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 26px 20px;
+    gap: 24px 12px;
+    font-size: 13px;
+  }
+  .footer-inner .brand {
+    grid-column: 1/-1;
+  }
+  .footer-inner > a:last-child {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .back-top {
+    bottom: 15px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+  }
+}
+.section-heading > p {
+  position: static;
+}

@@ -349,8 +349,8 @@ h2 {
 }
 .a3 {
   left: 60cqw;
-  top: 59cqw;
-  transform: rotate(-180deg);
+  top: 63cqw;
+  transform: scaleX(-1) rotate(-65deg);
 }
 .a4 {
   left: 43cqw;
